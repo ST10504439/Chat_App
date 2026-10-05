@@ -87,6 +87,6 @@ public class Part1_Registration_and_Login {
         if (isLoggedIn) {
             return "Welcome " + this.firstName + ", " + this.lastName + " it is great to see you.";
         } else {
-            
+          return "Username or password incorrect, please try again.";  
         }
     }}
