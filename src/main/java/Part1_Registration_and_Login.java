@@ -13,7 +13,7 @@ public class Part1_Registration_and_Login {
     private String password;
     private String phoneNumber;
     private String firstName;
-    private String lastName;
+    
    
     
     // Setters used during registration to populate fields
