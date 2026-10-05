@@ -77,7 +77,7 @@ public class Part1_Registration_and_Login {
      */
     public boolean loginUser(String enteredUsername, String enteredPassword) {
         if (this.username == null || this.password == null) return false;
-        
+        return this.username.equals(enteredUsername) && this.password.equals(enteredPassword);
     }
 
     /**
@@ -87,6 +87,6 @@ public class Part1_Registration_and_Login {
         if (isLoggedIn) {
             return "Welcome " + this.firstName + ", " + this.lastName + " it is great to see you.";
         } else {
-            return "Username or password incorrect, please try again.";
+            
         }
     }}
