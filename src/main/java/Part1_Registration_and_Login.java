@@ -77,7 +77,7 @@ public class Part1_Registration_and_Login {
      */
     public boolean loginUser(String enteredUsername, String enteredPassword) {
         if (this.username == null || this.password == null) return false;
-        return this.username.equals(enteredUsername) && this.password.equals(enteredPassword);
+        
     }
 
     /**
